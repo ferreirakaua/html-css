@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(148, 146, 146);
+        }
+        h1{
+            margin: 10px;
+            padding: 10px;
+        }
+        nav {
+            background-color: gray;
+            padding: 5px;
+            box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.418);
+            margin: 10px; 
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            padding: 30px;
+            font-weight: bold;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        header{
+            background-color: white;
+            margin: 10px;
+        }
+        main{
+            background-color: white;
+            margin: 10px;
+            padding: 5px;
+            border-radius: 10px 0px;
+        }
+        section#noticias{
+            background-color: lightgrey;
+            margin: 10px 10px 10px 10px;
+        }
+        aside{
+            background-color: rgb(165, 163, 163);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            margin: auto;
+            padding: 10px;
+            text-align: center;
+        }
+        footer > p{
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Politica Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique ipsam sunt eligendi accusamus sint nisi qui quam non nobis consectetur, quisquam, sequi quibusdam vitae voluptate cum expedita? Nobis, tempora eveniet?</p>
+                <aside>
+                    <p>Artigo escrito por Jose da Silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por KAUAFERREIRA</p>
+    </footer>
+</body>
+</html>
